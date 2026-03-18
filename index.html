@@ -77,12 +77,12 @@ body {
     flex-shrink: 0;
 }
 .digit {
-    width: 24px;
-    height: 46px;
+    width: 30px;
+    height: 56px;
     flex-shrink: 0;
 }
 .seg-off { fill: #1c0500; }
-.seg-on  { fill: #ff2200; filter: drop-shadow(0 0 2px #ff6600); }
+.seg-on  { fill: #ff2200; filter: drop-shadow(0 0 3px #ff6600); }
 .deg-indicator { display: flex; align-items: center; justify-content: center; }
 .deg-label {
     font-size: 16px;
@@ -238,32 +238,32 @@ input[type=range] { width: 100%; accent-color: #00ffaa; cursor: pointer; }
 
         <!-- ③ 7セグ + ℃ -->
         <div class="seg7-group">
-            <svg class="digit" id="digit0" viewBox="0 0 10 18">
-                <polygon id="d0_A" class="seg-off" points="1,0  9,0  8,1  2,1"/>
-                <polygon id="d0_B" class="seg-off" points="9,1  10,2  9,8  8,7  8,1"/>
-                <polygon id="d0_C" class="seg-off" points="9,10 10,11 9,17 8,16 8,10"/>
-                <polygon id="d0_D" class="seg-off" points="2,17 8,17  9,18  1,18"/>
-                <polygon id="d0_E" class="seg-off" points="0,11  1,10  2,10  2,16  1,17"/>
-                <polygon id="d0_F" class="seg-off" points="0,2  1,1  2,1  2,7  1,8"/>
-                <polygon id="d0_G" class="seg-off" points="1,9  2,8  8,8  9,9  8,10 2,10"/>
+            <svg class="digit" id="digit0" viewBox="0 0 40 70">
+                <polygon id="d0_A" class="seg-off" points="8,2 32,2 29,7 11,7"/>
+                <polygon id="d0_B" class="seg-off" points="33,4 38,9 38,32 33,32 33,9"/>
+                <polygon id="d0_C" class="seg-off" points="33,38 38,38 38,61 33,66 33,61"/>
+                <polygon id="d0_D" class="seg-off" points="11,63 29,63 32,68 8,68"/>
+                <polygon id="d0_E" class="seg-off" points="2,38 7,38 7,61 7,66 2,61"/>
+                <polygon id="d0_F" class="seg-off" points="2,9 7,4 7,9 7,32 2,32"/>
+                <polygon id="d0_G" class="seg-off" points="9,33 31,33 34,35 31,37 9,37 6,35"/>
             </svg>
-            <svg class="digit" id="digit1" viewBox="0 0 10 18">
-                <polygon id="d1_A" class="seg-off" points="1,0  9,0  8,1  2,1"/>
-                <polygon id="d1_B" class="seg-off" points="9,1  10,2  9,8  8,7  8,1"/>
-                <polygon id="d1_C" class="seg-off" points="9,10 10,11 9,17 8,16 8,10"/>
-                <polygon id="d1_D" class="seg-off" points="2,17 8,17  9,18  1,18"/>
-                <polygon id="d1_E" class="seg-off" points="0,11  1,10  2,10  2,16  1,17"/>
-                <polygon id="d1_F" class="seg-off" points="0,2  1,1  2,1  2,7  1,8"/>
-                <polygon id="d1_G" class="seg-off" points="1,9  2,8  8,8  9,9  8,10 2,10"/>
+            <svg class="digit" id="digit1" viewBox="0 0 40 70">
+                <polygon id="d1_A" class="seg-off" points="8,2 32,2 29,7 11,7"/>
+                <polygon id="d1_B" class="seg-off" points="33,4 38,9 38,32 33,32 33,9"/>
+                <polygon id="d1_C" class="seg-off" points="33,38 38,38 38,61 33,66 33,61"/>
+                <polygon id="d1_D" class="seg-off" points="11,63 29,63 32,68 8,68"/>
+                <polygon id="d1_E" class="seg-off" points="2,38 7,38 7,61 7,66 2,61"/>
+                <polygon id="d1_F" class="seg-off" points="2,9 7,4 7,9 7,32 2,32"/>
+                <polygon id="d1_G" class="seg-off" points="9,33 31,33 34,35 31,37 9,37 6,35"/>
             </svg>
-            <svg class="digit" id="digit2" viewBox="0 0 10 18">
-                <polygon id="d2_A" class="seg-off" points="1,0  9,0  8,1  2,1"/>
-                <polygon id="d2_B" class="seg-off" points="9,1  10,2  9,8  8,7  8,1"/>
-                <polygon id="d2_C" class="seg-off" points="9,10 10,11 9,17 8,16 8,10"/>
-                <polygon id="d2_D" class="seg-off" points="2,17 8,17  9,18  1,18"/>
-                <polygon id="d2_E" class="seg-off" points="0,11  1,10  2,10  2,16  1,17"/>
-                <polygon id="d2_F" class="seg-off" points="0,2  1,1  2,1  2,7  1,8"/>
-                <polygon id="d2_G" class="seg-off" points="1,9  2,8  8,8  9,9  8,10 2,10"/>
+            <svg class="digit" id="digit2" viewBox="0 0 40 70">
+                <polygon id="d2_A" class="seg-off" points="8,2 32,2 29,7 11,7"/>
+                <polygon id="d2_B" class="seg-off" points="33,4 38,9 38,32 33,32 33,9"/>
+                <polygon id="d2_C" class="seg-off" points="33,38 38,38 38,61 33,66 33,61"/>
+                <polygon id="d2_D" class="seg-off" points="11,63 29,63 32,68 8,68"/>
+                <polygon id="d2_E" class="seg-off" points="2,38 7,38 7,61 7,66 2,61"/>
+                <polygon id="d2_F" class="seg-off" points="2,9 7,4 7,9 7,32 2,32"/>
+                <polygon id="d2_G" class="seg-off" points="9,33 31,33 34,35 31,37 9,37 6,35"/>
             </svg>
             <div class="deg-indicator">
                 <div class="deg-label" id="degLabel">℃</div>
